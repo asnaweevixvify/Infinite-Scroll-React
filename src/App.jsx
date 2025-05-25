@@ -3,7 +3,7 @@ import './App.css'
 import Unsplash from './unsplash'
 
 function App() {
-  const apiKey = 'FZWIiZ7Shg9xd-k56l4ctZK0j175DBAtb8blEc8bJlg'
+  const apiKey = ''
   const [photos , setPhotos] = useState([])
   const [page,setPage] = useState(1)
   const [isLoading,setIsLoading] = useState(false)
